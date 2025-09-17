@@ -7,18 +7,6 @@ $secondary: #00caff;
 $info: #00ffde;
 $light:#ffffff;
 // custom.scss
-.nav-link {
-  
-  color: #4300ff !important;
- 
-}
-
-  .dropdown-item {
-  
-     color:#4300ff !important; 
-    
-}
-
 $dropdown-border-color:$primary;
 $dropdown-border-radius: 0px;
 $dropdown-link-hover-bg:#00ffddb4;
@@ -28,3 +16,21 @@ $font-family-sans-serif: "Montserrat", sans-serif;
 @import "../node_modules/bootstrap/scss/bootstrap";
 
 // Aquí puedes añadir CSS adicional si quieres
+.navbar-nav .nav-link.active {
+  
+  color: #4300ff ;
+ 
+}
+
+.nav-link {
+  
+  color: #4300ff ;
+ 
+}
+
+  .dropdown-item {
+  
+     color:#4300ff ; 
+    
+}
+
